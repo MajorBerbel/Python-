@@ -20,8 +20,7 @@ elif imc>30 and imc<40:
     print('Voce esta na obesidade grau 1, tome cuidado e procure um médico')
 else:
     print('Voce está bem gordo, procure ajuda!')
-    
-
+    # atualizando
     
 
 
