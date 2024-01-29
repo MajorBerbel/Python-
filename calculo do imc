@@ -1,0 +1,31 @@
+peso=float(input('qual seu peso em kilos (Kg) ?'))
+altura=float(input('qual sua altura em metros (m) ?'))
+imc = peso/(altura** 2)
+
+valor=imc
+
+print(f'o imc dessa pessoa é  {imc}')
+
+# gostaria de deixar um outro tipo de formataçao pra questoes didaticas
+
+print('Seu imc é {}'.format(imc))
+
+if imc<=18:
+    print('Você está abaixo do peso, se alimente melhor e procure nutricionista.')
+elif imc>18 and imc<24:
+    print('Você está no peso normal, parabéns... continue se allimentando bem')
+elif imc>24 and imc<30:
+    print('Você está no sobrepeso, melhore sua alimentaçâo e faça exercicios físicos')
+elif imc>30 and imc<40:
+    print('Voce esta na obesidade grau 1, tome cuidado e procure um médico')
+else:
+    print('Voce está bem gordo, procure ajuda!')
+    
+
+    
+
+
+
+    
+  
+
